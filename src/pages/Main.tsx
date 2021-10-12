@@ -1,4 +1,8 @@
+import { Link } from "react-router-dom";
+
 export const Main = () => 
-  <div className="myDiv">
-    <h2>Welcome!</h2>
+  <div>
+    <h2>Hello World!</h2>
+    <br />
+    <Link to="/pageA">Navigate to Page A</Link>
   </div>
