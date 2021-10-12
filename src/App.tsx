@@ -1,5 +1,5 @@
 import './css/App.css';
-import { HashRouter, Switch, Route } from "react-router-dom"; //@see https://reactrouter.com/web/guides/quick-start
+import { HashRouter, Switch, Route } from "react-router-dom"; //@see https://reactrouter.com/web/api/HashRouter
 import { Main } from "./pages/Main";
 import { PageA } from "./pages/pageA";
 import { PageB } from "./pages/pageB";
