@@ -1,8 +1,6 @@
 import './css/App.css';
 import { HashRouter, Switch, Route } from "react-router-dom"; //@see https://reactrouter.com/web/api/HashRouter
 import { Main } from "./pages/Main";
-import { PageA } from "./pages/pageA";
-import { PageB } from "./pages/pageB";
 
 
 function App() {
@@ -14,12 +12,12 @@ function App() {
       <HashRouter>
         <Switch>
           <Route exact={true} path="/" component={Main} />
-            <Route path="/pageA" component={PageA} />
-            <Route path="/pageB" component={PageB} />
         </Switch>
       </HashRouter>
       <br/>
+
       { s }
+
     </div>
   );
 }
